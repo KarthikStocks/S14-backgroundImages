@@ -1,0 +1,93 @@
+.mainHeading h1 {
+  display: inline-block;
+  background-color: snow;
+  color: rebeccapurple;
+  font-size: 43px;
+  border: 5px double burlywood;
+  border-radius: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+  text-shadow: 1px 1px 3px rgba(128, 0, 128, 0.4),
+    2px 2px 4px rgba(75, 0, 130, 0.3);
+  filter: drop-shadow(2px 4px 6px rgba(128, 0, 128, 0.5));
+}
+
+.mainHeading {
+  text-align: center;
+}
+
+.steve {
+  width: 400px;
+  height: 500px;
+  border: 15px groove hwb(36 68% 0%);
+  border-radius: 15px;
+  background-color: snow;
+  padding: 14px;
+  margin: 20px;
+  display: inline-block;
+  text-shadow: 1px 1px 2px #ffa07a, 2px 2px 3px #e0ffff;
+  text-align: center;
+  background-image: url("./images/appleLogo.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  /* background-repeat: repeat; */
+  background-position: center bottom;
+  /* box-sizing: border-box; */
+  background-origin: content-box;
+  background-clip: content-box;
+  box-shadow: 5px 5px 15px rgba(245, 184, 184, 0.9);
+}
+
+/* .steve{
+    background: snow url("./images/appleLogo.png") no-repeat center bottom;
+} */
+
+/* .steve{
+    background-image: url(./images/appleLogo.png), url(./images/nvidiaLogo.png);
+    background-position: center bottom, left top;
+    background-repeat: no-repeat, repeat-x;
+} */
+
+.steve img {
+  width: 250px;
+  height: 250px;
+  filter: drop-shadow(5px 5px 10px lavender);
+  object-fit: cover;
+}
+
+.steve p {
+  text-align: justify;
+}
+
+.jensen img {
+  object-position: 0px 0px;
+}
+
+.jensen {
+  border: 15px dashed lime;
+  background-color: antiquewhite;
+  background-image: url("./images/nvidiaLogo.png");
+  /* background-position: 0px 200px;
+  background-size: contain; */
+  background-size: 200px;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  box-shadow: none;
+}
+
+.bill {
+  border: 15px dotted thistle;
+  background-color: mintcream;
+  background-image: url("./images/microsoftLogo.webp");
+  background-size: 210px;
+  background-origin: border-box;
+  background-clip: border-box;
+}
+
+.indexBody {
+  /* background-image: url(./images/chevron-double-right.svg); */
+  background-color: rgb(240, 248, 255);
+  opacity: 0.9;
+}
